@@ -1,0 +1,4732 @@
+[
+    {
+        "id": "f12187556ebb73bf",
+        "type": "tab",
+        "label": "plc",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "3e7d57e49784a2e1",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-custom",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "Times New Roman,Times,serif",
+                "reset": false
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#4B7930",
+                    "value": "#4B7930",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#4B7930",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#6db046",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#4b7930",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "Times New Roman,Times,serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "HỆ THỐNG LÒ HƠI 2 BA LÔNG NƯỚC",
+            "hideToolbar": "false",
+            "allowSwipe": "true",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 65,
+                "sy": 45,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 1,
+                "py": 1
+            }
+        }
+    },
+    {
+        "id": "b1e33b6e6d55948a",
+        "type": "s7 endpoint",
+        "transport": "iso-on-tcp",
+        "address": "127.0.0.1",
+        "port": "102",
+        "rack": "0",
+        "slot": "2",
+        "localtsaphi": "01",
+        "localtsaplo": "00",
+        "remotetsaphi": "01",
+        "remotetsaplo": "00",
+        "connmode": "rack-slot",
+        "adapter": "",
+        "busaddr": "2",
+        "cycletime": "1000",
+        "timeout": "2000",
+        "name": "",
+        "vartable": [
+            {
+                "addr": "DB1,X18.2",
+                "name": "Auto-Man"
+            },
+            {
+                "addr": "DB1,X18.3",
+                "name": "Start-Auto"
+            },
+            {
+                "addr": "DB1,X18.4",
+                "name": "Stop-Auto"
+            },
+            {
+                "addr": "DB1,X28.0",
+                "name": "Start1"
+            },
+            {
+                "addr": "DB1,X28.1",
+                "name": "Stop1"
+            },
+            {
+                "addr": "DB1,X28.2",
+                "name": "Man1"
+            },
+            {
+                "addr": "DB1,X28.3",
+                "name": "Start2"
+            },
+            {
+                "addr": "DB1,X28.4",
+                "name": "Stop2"
+            },
+            {
+                "addr": "DB1,X28.5",
+                "name": "Man2"
+            },
+            {
+                "addr": "DB1,X28.6",
+                "name": "Start3"
+            },
+            {
+                "addr": "DB1,X28.7",
+                "name": "Stop3"
+            },
+            {
+                "addr": "DB1,X29.0",
+                "name": "Man3"
+            },
+            {
+                "addr": "DB1,X29.1",
+                "name": "Start4"
+            },
+            {
+                "addr": "DB1,X29.2",
+                "name": "Stop4"
+            },
+            {
+                "addr": "DB1,X29.3",
+                "name": "Man4"
+            },
+            {
+                "addr": "DB1,X29.4",
+                "name": "Start5"
+            },
+            {
+                "addr": "DB1,X29.5",
+                "name": "Stop5"
+            },
+            {
+                "addr": "DB1,X29.6",
+                "name": "Man5"
+            },
+            {
+                "addr": "DB1,X29.7",
+                "name": "Start6"
+            },
+            {
+                "addr": "DB1,X30.0",
+                "name": "Stop6"
+            },
+            {
+                "addr": "DB1,X30.1",
+                "name": "Man6"
+            },
+            {
+                "addr": "DB1,X30.2",
+                "name": "Start7"
+            },
+            {
+                "addr": "DB1,X30.3",
+                "name": "Stop7"
+            },
+            {
+                "addr": "DB1,X30.4",
+                "name": "Man7"
+            },
+            {
+                "addr": "DB1,X30.5",
+                "name": "Start8"
+            },
+            {
+                "addr": "DB1,X30.6",
+                "name": "Stop8"
+            },
+            {
+                "addr": "DB1,X30.7",
+                "name": "Man8"
+            },
+            {
+                "addr": "DB1,X31.0",
+                "name": "Start9"
+            },
+            {
+                "addr": "DB1,X31.1",
+                "name": "Stop9"
+            },
+            {
+                "addr": "DB1,X31.2",
+                "name": "Man9"
+            },
+            {
+                "addr": "DB1,X31.3",
+                "name": "Start10"
+            },
+            {
+                "addr": "DB1,X31.4",
+                "name": "Stop10"
+            },
+            {
+                "addr": "DB1,X31.5",
+                "name": "Man10"
+            },
+            {
+                "addr": "DB1,X31.6",
+                "name": "Start11"
+            },
+            {
+                "addr": "DB1,X31.7",
+                "name": "Stop11"
+            },
+            {
+                "addr": "DB1,X32.0",
+                "name": "Man11"
+            },
+            {
+                "addr": "DB1,X46.1",
+                "name": "Start12"
+            },
+            {
+                "addr": "DB1,X46.2",
+                "name": "Stop12"
+            },
+            {
+                "addr": "DB1,X46.3",
+                "name": "Man12"
+            },
+            {
+                "addr": "M5.5",
+                "name": "AutoofMan"
+            },
+            {
+                "addr": "IW96",
+                "name": "Áp suất nước"
+            },
+            {
+                "addr": "IW98",
+                "name": "Tần số biến tần bơm nước"
+            },
+            {
+                "addr": "IW100",
+                "name": "Nhiệt độ lò"
+            },
+            {
+                "addr": "IW102",
+                "name": "Nhiệt độ hơi"
+            },
+            {
+                "addr": "DB1,DINT20",
+                "name": "PVT1"
+            },
+            {
+                "addr": "DB1,DINT24",
+                "name": "PVT2"
+            },
+            {
+                "addr": "DB1,DINT34",
+                "name": "PVT3"
+            },
+            {
+                "addr": "DB1,DINT38",
+                "name": "PVT4"
+            },
+            {
+                "addr": "DB1,DINT42",
+                "name": "PVT5"
+            },
+            {
+                "addr": "DB5,REAL24",
+                "name": "SP-TL"
+            },
+            {
+                "addr": "DB5,REAL8",
+                "name": "SP-P"
+            },
+            {
+                "addr": "DB5,DINT0",
+                "name": "Timer1"
+            },
+            {
+                "addr": "DB5,DINT4",
+                "name": "Timer2"
+            },
+            {
+                "addr": "DB5,DINT12",
+                "name": "Timer3"
+            },
+            {
+                "addr": "DB5,DINT16",
+                "name": "Timer4"
+            },
+            {
+                "addr": "DB5,DINT20",
+                "name": "Timer5"
+            },
+            {
+                "addr": "Q0.0",
+                "name": "Bơm nước chính"
+            },
+            {
+                "addr": "Q0.1",
+                "name": "Van"
+            },
+            {
+                "addr": "Q0.2",
+                "name": "Băng chuyền"
+            },
+            {
+                "addr": "Q0.3",
+                "name": "Quạt cấp liệu"
+            },
+            {
+                "addr": "Q0.4",
+                "name": "Quạt cấp khí "
+            },
+            {
+                "addr": "Q0.5",
+                "name": "Quạt hồi tro"
+            },
+            {
+                "addr": "Q0.6",
+                "name": "Van xoay"
+            },
+            {
+                "addr": "Q0.7",
+                "name": "Van xoay 2"
+            },
+            {
+                "addr": "Q1.0",
+                "name": "Bơm dập bụi"
+            },
+            {
+                "addr": "Q1.1",
+                "name": "Báo nhiệt độ cao "
+            },
+            {
+                "addr": "Q1.2",
+                "name": "Hệ thống đánh lửa"
+            },
+            {
+                "addr": "Q1.3",
+                "name": "Quạt thổi 1"
+            },
+            {
+                "addr": "Q1.4",
+                "name": "Quạt thổi 2"
+            },
+            {
+                "addr": "Q1.5",
+                "name": "Trạng thái lò"
+            }
+        ]
+    },
+    {
+        "id": "2b2d50c9fa96c6f9",
+        "type": "ui_tab",
+        "name": "Sensor",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "23326c71bd8e4e2c",
+        "type": "ui_group",
+        "name": "Start ",
+        "tab": "5a1a68f2cdbb9c18",
+        "order": 1,
+        "disp": true,
+        "width": 3,
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "709f77baae21d231",
+        "type": "ui_group",
+        "name": "Auto - Stop",
+        "tab": "b3b5418d12e09ad7",
+        "order": 3,
+        "disp": true,
+        "width": 4,
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "5a1a68f2cdbb9c18",
+        "type": "ui_tab",
+        "name": "Man",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "b3b5418d12e09ad7",
+        "type": "ui_tab",
+        "name": "Trang chủ",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "719cc181a0d68229",
+        "type": "ui_group",
+        "name": "Áp suất Thực ",
+        "tab": "2b2d50c9fa96c6f9",
+        "order": 1,
+        "disp": true,
+        "width": 5,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "baae4c40f2b5466f",
+        "type": "ui_group",
+        "name": "Auto - Man",
+        "tab": "b3b5418d12e09ad7",
+        "order": 1,
+        "disp": true,
+        "width": 4,
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "c99b6249faf244ef",
+        "type": "ui_group",
+        "name": "Auto - Start",
+        "tab": "b3b5418d12e09ad7",
+        "order": 2,
+        "disp": true,
+        "width": 4,
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "54cd31a5b230edf9",
+        "type": "ui_group",
+        "name": "Stop",
+        "tab": "5a1a68f2cdbb9c18",
+        "order": 2,
+        "disp": true,
+        "width": 3,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "db2c428cb365cda1",
+        "type": "ui_group",
+        "name": "Trạng thái",
+        "tab": "5a1a68f2cdbb9c18",
+        "order": 3,
+        "disp": true,
+        "width": 5,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "4b44eafc1cd23503",
+        "type": "ui_group",
+        "name": "Tần số",
+        "tab": "2b2d50c9fa96c6f9",
+        "order": 2,
+        "disp": true,
+        "width": 5,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "b7875b633de3bf38",
+        "type": "ui_group",
+        "name": "Nhiệt độ lò hơi",
+        "tab": "2b2d50c9fa96c6f9",
+        "order": 3,
+        "disp": true,
+        "width": 5,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "cca3d49b50224451",
+        "type": "ui_group",
+        "name": "Nhiệt độ hơi ",
+        "tab": "2b2d50c9fa96c6f9",
+        "order": 4,
+        "disp": true,
+        "width": 5,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "3205d984f1eca65e",
+        "type": "ui_tab",
+        "name": "Thời gian hoạt động",
+        "icon": "dashboard",
+        "order": 7,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "d7149ab61bda7e75",
+        "type": "ui_group",
+        "name": "Bơm",
+        "tab": "3205d984f1eca65e",
+        "order": 1,
+        "disp": true,
+        "width": 19,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "7d7c2b8c6ae08545",
+        "type": "ui_group",
+        "name": "Quạt thổi 1 và 2",
+        "tab": "3205d984f1eca65e",
+        "order": 2,
+        "disp": true,
+        "width": 19,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "9367e454aa2bca7c",
+        "type": "ui_group",
+        "name": "Van xoay 1 và 2",
+        "tab": "3205d984f1eca65e",
+        "order": 3,
+        "disp": true,
+        "width": 19,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "7fa5265d13c286ea",
+        "type": "ui_group",
+        "name": "Bơm nước dập bụi",
+        "tab": "3205d984f1eca65e",
+        "order": 4,
+        "disp": true,
+        "width": 19,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d2dab03d4116fcc4",
+        "type": "ui_tab",
+        "name": "Biểu đồ",
+        "icon": "dashboard",
+        "order": 6,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "b1a283566ef33325",
+        "type": "ui_group",
+        "name": "Biểu đồ nhiệt",
+        "tab": "d2dab03d4116fcc4",
+        "order": 3,
+        "disp": true,
+        "width": 29,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "37fed8d474eca0b3",
+        "type": "ui_tab",
+        "name": "Cài đặt nhiệt độ",
+        "icon": "dashboard",
+        "order": 5,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "e687f9d4455425ba",
+        "type": "ui_group",
+        "name": "Cài đặt nhiệt độ",
+        "tab": "62ab52a7a2f14219",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "62ab52a7a2f14219",
+        "type": "ui_tab",
+        "name": "Cài đặt",
+        "icon": "dashboard",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "285b03bde783ef15",
+        "type": "ui_group",
+        "name": "Cài đặt áp suất",
+        "tab": "62ab52a7a2f14219",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "1daf468028572d89",
+        "type": "ui_group",
+        "name": "Cài đặt thời gian",
+        "tab": "62ab52a7a2f14219",
+        "order": 3,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "1767f5230c21261f",
+        "type": "ui_spacer",
+        "z": "f12187556ebb73bf",
+        "name": "spacer",
+        "group": "d7149ab61bda7e75",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "f412271a0623e15a",
+        "type": "ui_spacer",
+        "z": "f12187556ebb73bf",
+        "name": "spacer",
+        "group": "d7149ab61bda7e75",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "4b0948d159016911",
+        "type": "ui_group",
+        "name": "Áp suất nước",
+        "tab": "d2dab03d4116fcc4",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "861852acf6e7111e",
+        "type": "ui_group",
+        "name": "Tần số",
+        "tab": "d2dab03d4116fcc4",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "9c0b4681c53a9877",
+        "type": "ui_spacer",
+        "z": "f12187556ebb73bf",
+        "name": "spacer",
+        "group": "b1a283566ef33325",
+        "order": 2,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "a252e1c97bfeb784",
+        "type": "ui_spacer",
+        "z": "f12187556ebb73bf",
+        "name": "spacer",
+        "group": "b1a283566ef33325",
+        "order": 3,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "825b57d0b806af4e",
+        "type": "ui_spacer",
+        "z": "f12187556ebb73bf",
+        "name": "spacer",
+        "group": "b1a283566ef33325",
+        "order": 4,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "3c16aa5f2984025d",
+        "type": "ui_spacer",
+        "z": "f12187556ebb73bf",
+        "name": "spacer",
+        "group": "b1a283566ef33325",
+        "order": 5,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "f0ebf443acf81e41",
+        "type": "ui_spacer",
+        "z": "f12187556ebb73bf",
+        "name": "spacer",
+        "group": "b1a283566ef33325",
+        "order": 7,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "865ba4b5a7d20587",
+        "type": "ui_spacer",
+        "z": "f12187556ebb73bf",
+        "name": "spacer",
+        "group": "b1a283566ef33325",
+        "order": 8,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "33bbc1ec41e9f61b",
+        "type": "ui_spacer",
+        "z": "f12187556ebb73bf",
+        "name": "spacer",
+        "group": "b1a283566ef33325",
+        "order": 9,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "d1b619c5eae31694",
+        "type": "ui_spacer",
+        "z": "f12187556ebb73bf",
+        "name": "spacer",
+        "group": "b1a283566ef33325",
+        "order": 10,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "6a06cc065218d317",
+        "type": "ui_group",
+        "name": "Trạng thái",
+        "tab": "b3b5418d12e09ad7",
+        "order": 4,
+        "disp": true,
+        "width": 8,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "3bcbba1c29192c1e",
+        "type": "remote-config",
+        "name": "Node-RED UI",
+        "host": "localhost",
+        "protocol": "http",
+        "port": "1880",
+        "baseurl": "/ui",
+        "instancehash": "4yt5xomvwflyh5l4iqf11boi8ah4yzf469zd6w9clt3tr905i1qhkuip3huzz5o2",
+        "server": "nodered02.remote-red.com",
+        "region": "de"
+    },
+    {
+        "id": "27fa47fa0183cb9e",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "MqttDashboard-2408649",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "94d6d9202f016a15",
+        "type": "ui_switch",
+        "z": "f12187556ebb73bf",
+        "name": "",
+        "label": "Auto-Start",
+        "tooltip": "",
+        "group": "c99b6249faf244ef",
+        "order": 1,
+        "width": 4,
+        "height": 2,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 100,
+        "y": 60,
+        "wires": [
+            [
+                "cfbf54f667ee57a7"
+            ]
+        ]
+    },
+    {
+        "id": "b8258ddcb9f32596",
+        "type": "ui_switch",
+        "z": "f12187556ebb73bf",
+        "name": "",
+        "label": "Auto-Stop",
+        "tooltip": "",
+        "group": "709f77baae21d231",
+        "order": 1,
+        "width": 4,
+        "height": 2,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 100,
+        "y": 100,
+        "wires": [
+            [
+                "a7010fb95bae5ec9"
+            ]
+        ]
+    },
+    {
+        "id": "cfbf54f667ee57a7",
+        "type": "s7 out",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "variable": "Start-Auto",
+        "name": "",
+        "x": 260,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "a7010fb95bae5ec9",
+        "type": "s7 out",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "variable": "Stop-Auto",
+        "name": "",
+        "x": 260,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "136d206cc6d63845",
+        "type": "ui_switch",
+        "z": "f12187556ebb73bf",
+        "name": "",
+        "label": "Auto-Man",
+        "tooltip": "",
+        "group": "baae4c40f2b5466f",
+        "order": 1,
+        "width": 4,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 100,
+        "y": 20,
+        "wires": [
+            [
+                "b08490446f2b202b"
+            ]
+        ]
+    },
+    {
+        "id": "b08490446f2b202b",
+        "type": "s7 out",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "variable": "Auto-Man",
+        "name": "",
+        "x": 260,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "b1aa30b76d981eb5",
+        "type": "ui_switch",
+        "z": "f12187556ebb73bf",
+        "name": "",
+        "label": "Start6",
+        "tooltip": "",
+        "group": "23326c71bd8e4e2c",
+        "order": 6,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 90,
+        "y": 640,
+        "wires": [
+            [
+                "0fc097a8af08431b"
+            ]
+        ]
+    },
+    {
+        "id": "f7a78ba0383be98a",
+        "type": "ui_switch",
+        "z": "f12187556ebb73bf",
+        "name": "",
+        "label": "Start7",
+        "tooltip": "",
+        "group": "23326c71bd8e4e2c",
+        "order": 7,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 90,
+        "y": 680,
+        "wires": [
+            [
+                "00cbc310297392c1"
+            ]
+        ]
+    },
+    {
+        "id": "bf8680da55b165b1",
+        "type": "ui_switch",
+        "z": "f12187556ebb73bf",
+        "name": "",
+        "label": "Start8",
+        "tooltip": "",
+        "group": "23326c71bd8e4e2c",
+        "order": 8,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 90,
+        "y": 720,
+        "wires": [
+            [
+                "4d87749bba826533"
+            ]
+        ]
+    },
+    {
+        "id": "a7ddcad11deabbf3",
+        "type": "ui_switch",
+        "z": "f12187556ebb73bf",
+        "name": "",
+        "label": "Start9",
+        "tooltip": "",
+        "group": "23326c71bd8e4e2c",
+        "order": 9,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 90,
+        "y": 760,
+        "wires": [
+            [
+                "690dc86d2ee8040c"
+            ]
+        ]
+    },
+    {
+        "id": "a33a5968c1c704e7",
+        "type": "ui_switch",
+        "z": "f12187556ebb73bf",
+        "name": "",
+        "label": "Start10",
+        "tooltip": "",
+        "group": "23326c71bd8e4e2c",
+        "order": 10,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 100,
+        "y": 800,
+        "wires": [
+            [
+                "e29a535418736b5d"
+            ]
+        ]
+    },
+    {
+        "id": "ab26580a7ee14c2e",
+        "type": "ui_switch",
+        "z": "f12187556ebb73bf",
+        "name": "",
+        "label": "Start11",
+        "tooltip": "",
+        "group": "23326c71bd8e4e2c",
+        "order": 11,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 100,
+        "y": 840,
+        "wires": [
+            [
+                "f695144985da5d8c"
+            ]
+        ]
+    },
+    {
+        "id": "7affbb55d78d3ba0",
+        "type": "ui_switch",
+        "z": "f12187556ebb73bf",
+        "name": "",
+        "label": "Start12",
+        "tooltip": "",
+        "group": "23326c71bd8e4e2c",
+        "order": 12,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 100,
+        "y": 880,
+        "wires": [
+            [
+                "2b0bb6829c977789"
+            ]
+        ]
+    },
+    {
+        "id": "80e6f29543bd30b6",
+        "type": "s7 out",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "variable": "Start1",
+        "name": "",
+        "x": 250,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "bd7245c49f254635",
+        "type": "s7 out",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "variable": "Start2",
+        "name": "",
+        "x": 250,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "a29b8d619bb0d4a0",
+        "type": "s7 out",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "variable": "Start3",
+        "name": "",
+        "x": 250,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "f8394abbc1c0141d",
+        "type": "s7 out",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "variable": "Start4",
+        "name": "",
+        "x": 250,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "77d99c3664b4f048",
+        "type": "s7 out",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "variable": "Start5",
+        "name": "",
+        "x": 250,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "0fc097a8af08431b",
+        "type": "s7 out",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "variable": "Start6",
+        "name": "",
+        "x": 250,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "00cbc310297392c1",
+        "type": "s7 out",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "variable": "Start7",
+        "name": "",
+        "x": 250,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "4d87749bba826533",
+        "type": "s7 out",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "variable": "Start8",
+        "name": "",
+        "x": 250,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "690dc86d2ee8040c",
+        "type": "s7 out",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "variable": "Start9",
+        "name": "",
+        "x": 250,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "e29a535418736b5d",
+        "type": "s7 out",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "variable": "Start10",
+        "name": "",
+        "x": 260,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "f695144985da5d8c",
+        "type": "s7 out",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "variable": "Start11",
+        "name": "",
+        "x": 260,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "2b0bb6829c977789",
+        "type": "s7 out",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "variable": "Start12",
+        "name": "",
+        "x": 260,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "e14d079ff07c3843",
+        "type": "ui_switch",
+        "z": "f12187556ebb73bf",
+        "name": "",
+        "label": "Stop1",
+        "tooltip": "",
+        "group": "54cd31a5b230edf9",
+        "order": 1,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 410,
+        "y": 440,
+        "wires": [
+            [
+                "b50db6dbba502b5d"
+            ]
+        ]
+    },
+    {
+        "id": "30cf4cc47aa73a11",
+        "type": "ui_switch",
+        "z": "f12187556ebb73bf",
+        "name": "",
+        "label": "Stop2",
+        "tooltip": "",
+        "group": "54cd31a5b230edf9",
+        "order": 2,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 410,
+        "y": 480,
+        "wires": [
+            [
+                "4047c5122c29719b"
+            ]
+        ]
+    },
+    {
+        "id": "26904348fbfe7995",
+        "type": "ui_switch",
+        "z": "f12187556ebb73bf",
+        "name": "",
+        "label": "Stop3",
+        "tooltip": "",
+        "group": "54cd31a5b230edf9",
+        "order": 3,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 410,
+        "y": 520,
+        "wires": [
+            [
+                "03a7ca6c3e6c9b4e"
+            ]
+        ]
+    },
+    {
+        "id": "52fa597d5d4f137a",
+        "type": "ui_switch",
+        "z": "f12187556ebb73bf",
+        "name": "",
+        "label": "Stop4",
+        "tooltip": "",
+        "group": "54cd31a5b230edf9",
+        "order": 4,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 410,
+        "y": 560,
+        "wires": [
+            [
+                "37b812e33692c13a"
+            ]
+        ]
+    },
+    {
+        "id": "63429286f5f9d031",
+        "type": "ui_switch",
+        "z": "f12187556ebb73bf",
+        "name": "",
+        "label": "Stop5",
+        "tooltip": "",
+        "group": "54cd31a5b230edf9",
+        "order": 5,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 410,
+        "y": 600,
+        "wires": [
+            [
+                "a2a576e4838d480f"
+            ]
+        ]
+    },
+    {
+        "id": "0331dfccb74c71f7",
+        "type": "ui_switch",
+        "z": "f12187556ebb73bf",
+        "name": "",
+        "label": "Stop6",
+        "tooltip": "",
+        "group": "54cd31a5b230edf9",
+        "order": 6,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 410,
+        "y": 640,
+        "wires": [
+            [
+                "229b825d74519675"
+            ]
+        ]
+    },
+    {
+        "id": "8371c584184c291d",
+        "type": "ui_switch",
+        "z": "f12187556ebb73bf",
+        "name": "",
+        "label": "Stop7",
+        "tooltip": "",
+        "group": "54cd31a5b230edf9",
+        "order": 7,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 410,
+        "y": 680,
+        "wires": [
+            [
+                "d36543414a5f96ab"
+            ]
+        ]
+    },
+    {
+        "id": "77906f7a9e28f178",
+        "type": "ui_switch",
+        "z": "f12187556ebb73bf",
+        "name": "",
+        "label": "Stop8",
+        "tooltip": "",
+        "group": "54cd31a5b230edf9",
+        "order": 8,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 410,
+        "y": 720,
+        "wires": [
+            [
+                "6253e039e6df60fe"
+            ]
+        ]
+    },
+    {
+        "id": "87f5019c0e0a3a1f",
+        "type": "ui_switch",
+        "z": "f12187556ebb73bf",
+        "name": "",
+        "label": "Stop9",
+        "tooltip": "",
+        "group": "54cd31a5b230edf9",
+        "order": 9,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 410,
+        "y": 760,
+        "wires": [
+            [
+                "a8301b3a17195118"
+            ]
+        ]
+    },
+    {
+        "id": "505121cb425738b4",
+        "type": "ui_switch",
+        "z": "f12187556ebb73bf",
+        "name": "",
+        "label": "Stop10",
+        "tooltip": "",
+        "group": "54cd31a5b230edf9",
+        "order": 10,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 420,
+        "y": 800,
+        "wires": [
+            [
+                "9373511742206cfa"
+            ]
+        ]
+    },
+    {
+        "id": "c9a75a1c78ab675c",
+        "type": "ui_switch",
+        "z": "f12187556ebb73bf",
+        "name": "",
+        "label": "Stop11",
+        "tooltip": "",
+        "group": "54cd31a5b230edf9",
+        "order": 11,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 410,
+        "y": 840,
+        "wires": [
+            [
+                "da1eecd144ba0591"
+            ]
+        ]
+    },
+    {
+        "id": "1045918d408316e6",
+        "type": "ui_switch",
+        "z": "f12187556ebb73bf",
+        "name": "",
+        "label": "Stop12",
+        "tooltip": "",
+        "group": "54cd31a5b230edf9",
+        "order": 12,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 420,
+        "y": 880,
+        "wires": [
+            [
+                "cb964fa3d4d20499"
+            ]
+        ]
+    },
+    {
+        "id": "b50db6dbba502b5d",
+        "type": "s7 out",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "variable": "Stop1",
+        "name": "",
+        "x": 570,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "4047c5122c29719b",
+        "type": "s7 out",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "variable": "Stop2",
+        "name": "",
+        "x": 570,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "03a7ca6c3e6c9b4e",
+        "type": "s7 out",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "variable": "Stop3",
+        "name": "",
+        "x": 570,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "37b812e33692c13a",
+        "type": "s7 out",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "variable": "Stop4",
+        "name": "",
+        "x": 570,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "a2a576e4838d480f",
+        "type": "s7 out",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "variable": "Stop5",
+        "name": "",
+        "x": 570,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "229b825d74519675",
+        "type": "s7 out",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "variable": "Stop6",
+        "name": "",
+        "x": 570,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "d36543414a5f96ab",
+        "type": "s7 out",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "variable": "Stop7",
+        "name": "",
+        "x": 570,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "6253e039e6df60fe",
+        "type": "s7 out",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "variable": "Stop8",
+        "name": "",
+        "x": 570,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "a8301b3a17195118",
+        "type": "s7 out",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "variable": "Stop9",
+        "name": "",
+        "x": 570,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "9373511742206cfa",
+        "type": "s7 out",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "variable": "Stop10",
+        "name": "",
+        "x": 580,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "da1eecd144ba0591",
+        "type": "s7 out",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "variable": "Stop11",
+        "name": "",
+        "x": 570,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "cb964fa3d4d20499",
+        "type": "s7 out",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "variable": "Stop12",
+        "name": "",
+        "x": 580,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "dd2199576169d94d",
+        "type": "s7 in",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "mode": "single",
+        "variable": "Auto-Man",
+        "diff": false,
+        "name": "",
+        "x": 100,
+        "y": 160,
+        "wires": [
+            [
+                "b7297731e7bc6397"
+            ]
+        ]
+    },
+    {
+        "id": "7835be14eaa7206b",
+        "type": "s7 in",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "mode": "single",
+        "variable": "Man1",
+        "diff": false,
+        "name": "",
+        "x": 770,
+        "y": 440,
+        "wires": [
+            [
+                "e551d6a4831df214"
+            ]
+        ]
+    },
+    {
+        "id": "e551d6a4831df214",
+        "type": "ui_text",
+        "z": "f12187556ebb73bf",
+        "group": "db2c428cb365cda1",
+        "order": 1,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Trạng thái Bơm nước cấp",
+        "format": "{{msg.payload}}",
+        "layout": "row-right",
+        "className": "",
+        "x": 990,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "8ec7415b0e2477f0",
+        "type": "s7 in",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "mode": "single",
+        "variable": "Man2",
+        "diff": false,
+        "name": "",
+        "x": 770,
+        "y": 480,
+        "wires": [
+            [
+                "d6df91b9b622b591"
+            ]
+        ]
+    },
+    {
+        "id": "d6df91b9b622b591",
+        "type": "ui_text",
+        "z": "f12187556ebb73bf",
+        "group": "db2c428cb365cda1",
+        "order": 2,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Trạng thái Van nước cấp",
+        "format": "{{msg.payload}}",
+        "layout": "row-right",
+        "className": "",
+        "x": 990,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "55d931593bdfe42f",
+        "type": "s7 in",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "mode": "single",
+        "variable": "Man3",
+        "diff": false,
+        "name": "",
+        "x": 770,
+        "y": 520,
+        "wires": [
+            [
+                "ec312937e7d62636"
+            ]
+        ]
+    },
+    {
+        "id": "ec312937e7d62636",
+        "type": "ui_text",
+        "z": "f12187556ebb73bf",
+        "group": "db2c428cb365cda1",
+        "order": 3,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Trạng thái Băng chuyền",
+        "format": "{{msg.payload}}",
+        "layout": "row-right",
+        "className": "",
+        "x": 990,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "97178fcaec0d3dab",
+        "type": "s7 in",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "mode": "single",
+        "variable": "Man4",
+        "diff": false,
+        "name": "",
+        "x": 770,
+        "y": 560,
+        "wires": [
+            [
+                "7871416f2eee7838"
+            ]
+        ]
+    },
+    {
+        "id": "7871416f2eee7838",
+        "type": "ui_text",
+        "z": "f12187556ebb73bf",
+        "group": "db2c428cb365cda1",
+        "order": 4,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Trạng thái Quạt cấp liệu",
+        "format": "{{msg.payload}}",
+        "layout": "row-right",
+        "className": "",
+        "x": 990,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "d9d9b99eba3149b8",
+        "type": "s7 in",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "mode": "single",
+        "variable": "Man5",
+        "diff": false,
+        "name": "",
+        "x": 770,
+        "y": 600,
+        "wires": [
+            [
+                "b57d2f31424a86cd"
+            ]
+        ]
+    },
+    {
+        "id": "b57d2f31424a86cd",
+        "type": "ui_text",
+        "z": "f12187556ebb73bf",
+        "group": "db2c428cb365cda1",
+        "order": 5,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Trạng thái Quạt cấp khí",
+        "format": "{{msg.payload}}",
+        "layout": "row-right",
+        "className": "",
+        "x": 990,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "96e56bd8dde7cbd0",
+        "type": "s7 in",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "mode": "single",
+        "variable": "Man6",
+        "diff": false,
+        "name": "",
+        "x": 770,
+        "y": 640,
+        "wires": [
+            [
+                "2b75e6a63c895a91"
+            ]
+        ]
+    },
+    {
+        "id": "2b75e6a63c895a91",
+        "type": "ui_text",
+        "z": "f12187556ebb73bf",
+        "group": "db2c428cb365cda1",
+        "order": 6,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Trạng thái Quạt hồi tro",
+        "format": "{{msg.payload}}",
+        "layout": "row-right",
+        "className": "",
+        "x": 980,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "4686a4bcf74d73e5",
+        "type": "s7 in",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "mode": "single",
+        "variable": "Man7",
+        "diff": false,
+        "name": "",
+        "x": 770,
+        "y": 680,
+        "wires": [
+            [
+                "704b24ccbf8988e2"
+            ]
+        ]
+    },
+    {
+        "id": "704b24ccbf8988e2",
+        "type": "ui_text",
+        "z": "f12187556ebb73bf",
+        "group": "db2c428cb365cda1",
+        "order": 7,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Trạng thái Van xoay 1",
+        "format": "{{msg.payload}}",
+        "layout": "row-right",
+        "className": "",
+        "x": 980,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "a8cdc161afbe47f0",
+        "type": "s7 in",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "mode": "single",
+        "variable": "Man8",
+        "diff": false,
+        "name": "",
+        "x": 770,
+        "y": 720,
+        "wires": [
+            [
+                "d7cc046d9e83c9dc"
+            ]
+        ]
+    },
+    {
+        "id": "d7cc046d9e83c9dc",
+        "type": "ui_text",
+        "z": "f12187556ebb73bf",
+        "group": "db2c428cb365cda1",
+        "order": 8,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Trạng thái Van xoay 2",
+        "format": "{{msg.payload}}",
+        "layout": "row-right",
+        "className": "",
+        "x": 980,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "550ccebf2e1e764d",
+        "type": "s7 in",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "mode": "single",
+        "variable": "Man9",
+        "diff": false,
+        "name": "",
+        "x": 770,
+        "y": 760,
+        "wires": [
+            [
+                "03ea7d08e3fa001a"
+            ]
+        ]
+    },
+    {
+        "id": "03ea7d08e3fa001a",
+        "type": "ui_text",
+        "z": "f12187556ebb73bf",
+        "group": "db2c428cb365cda1",
+        "order": 9,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Trạng thái Bơm nước dập bụi",
+        "format": "{{msg.payload}}",
+        "layout": "row-right",
+        "className": "",
+        "x": 1030,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "8de588db6d11d8c0",
+        "type": "s7 in",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "mode": "single",
+        "variable": "Man10",
+        "diff": false,
+        "name": "",
+        "x": 770,
+        "y": 800,
+        "wires": [
+            [
+                "94c6aa37b1011fcd"
+            ]
+        ]
+    },
+    {
+        "id": "94c6aa37b1011fcd",
+        "type": "ui_text",
+        "z": "f12187556ebb73bf",
+        "group": "db2c428cb365cda1",
+        "order": 10,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Trạng thái Đánh lửa",
+        "format": "{{msg.payload}}",
+        "layout": "row-right",
+        "className": "",
+        "x": 980,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "bd430b23ed3865d7",
+        "type": "s7 in",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "mode": "single",
+        "variable": "Man11",
+        "diff": false,
+        "name": "",
+        "x": 770,
+        "y": 840,
+        "wires": [
+            [
+                "71aa0eb00e3b414d"
+            ]
+        ]
+    },
+    {
+        "id": "71aa0eb00e3b414d",
+        "type": "ui_text",
+        "z": "f12187556ebb73bf",
+        "group": "db2c428cb365cda1",
+        "order": 11,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Trạng thái Quạt thổi 1",
+        "format": "{{msg.payload}}",
+        "layout": "row-right",
+        "className": "",
+        "x": 980,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "7cfb28bb7132ee04",
+        "type": "s7 in",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "mode": "single",
+        "variable": "Man12",
+        "diff": false,
+        "name": "",
+        "x": 770,
+        "y": 880,
+        "wires": [
+            [
+                "6ed8f7254139b018"
+            ]
+        ]
+    },
+    {
+        "id": "6ed8f7254139b018",
+        "type": "ui_text",
+        "z": "f12187556ebb73bf",
+        "group": "db2c428cb365cda1",
+        "order": 12,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Trạng thái Quạt thổi 2",
+        "format": "{{msg.payload}}",
+        "layout": "row-right",
+        "className": "",
+        "x": 980,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "d48ed7333ee0c973",
+        "type": "ui_switch",
+        "z": "f12187556ebb73bf",
+        "name": "",
+        "label": "Start1",
+        "tooltip": "",
+        "group": "23326c71bd8e4e2c",
+        "order": 1,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 90,
+        "y": 440,
+        "wires": [
+            [
+                "80e6f29543bd30b6"
+            ]
+        ]
+    },
+    {
+        "id": "3200426b08e03835",
+        "type": "ui_switch",
+        "z": "f12187556ebb73bf",
+        "name": "",
+        "label": "Start2",
+        "tooltip": "",
+        "group": "23326c71bd8e4e2c",
+        "order": 2,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 90,
+        "y": 480,
+        "wires": [
+            [
+                "bd7245c49f254635"
+            ]
+        ]
+    },
+    {
+        "id": "a73c97338711ab81",
+        "type": "ui_switch",
+        "z": "f12187556ebb73bf",
+        "name": "",
+        "label": "Start3",
+        "tooltip": "",
+        "group": "23326c71bd8e4e2c",
+        "order": 3,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 90,
+        "y": 520,
+        "wires": [
+            [
+                "a29b8d619bb0d4a0"
+            ]
+        ]
+    },
+    {
+        "id": "e3108a53122c3d64",
+        "type": "ui_switch",
+        "z": "f12187556ebb73bf",
+        "name": "",
+        "label": "Start4",
+        "tooltip": "",
+        "group": "23326c71bd8e4e2c",
+        "order": 4,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 90,
+        "y": 560,
+        "wires": [
+            [
+                "f8394abbc1c0141d"
+            ]
+        ]
+    },
+    {
+        "id": "d4699ce6f74d75a1",
+        "type": "ui_switch",
+        "z": "f12187556ebb73bf",
+        "name": "",
+        "label": "Start5",
+        "tooltip": "",
+        "group": "23326c71bd8e4e2c",
+        "order": 5,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 90,
+        "y": 600,
+        "wires": [
+            [
+                "77d99c3664b4f048"
+            ]
+        ]
+    },
+    {
+        "id": "5400ab3a344dbd8b",
+        "type": "s7 in",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "mode": "single",
+        "variable": "Áp suất nước",
+        "diff": true,
+        "name": "",
+        "x": 150,
+        "y": 940,
+        "wires": [
+            [
+                "d2ef436496088550",
+                "b25d67cd37ad0775"
+            ]
+        ]
+    },
+    {
+        "id": "d2ef436496088550",
+        "type": "ui_gauge",
+        "z": "f12187556ebb73bf",
+        "name": "",
+        "group": "719cc181a0d68229",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "16.0",
+        "colors": [
+            "#187218",
+            "#b5b536",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 430,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "37b793247127df65",
+        "type": "s7 in",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "mode": "single",
+        "variable": "Tần số biến tần bơm nước",
+        "diff": true,
+        "name": "",
+        "x": 190,
+        "y": 1060,
+        "wires": [
+            [
+                "7f32361e6379d122",
+                "d3a6291f9328167d"
+            ]
+        ]
+    },
+    {
+        "id": "7f32361e6379d122",
+        "type": "ui_gauge",
+        "z": "f12187556ebb73bf",
+        "name": "",
+        "group": "4b44eafc1cd23503",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "60.0",
+        "colors": [
+            "#187218",
+            "#b5b536",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 430,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "c9adfd71b1b5ceed",
+        "type": "s7 in",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "mode": "single",
+        "variable": "Nhiệt độ lò",
+        "diff": true,
+        "name": "",
+        "x": 140,
+        "y": 1180,
+        "wires": [
+            [
+                "6424a8658c3a3048"
+            ]
+        ]
+    },
+    {
+        "id": "6424a8658c3a3048",
+        "type": "ui_gauge",
+        "z": "f12187556ebb73bf",
+        "name": "",
+        "group": "b7875b633de3bf38",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "1000.0",
+        "colors": [
+            "#187218",
+            "#b5b536",
+            "#be2d2d"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 430,
+        "y": 1180,
+        "wires": []
+    },
+    {
+        "id": "82e5cc2ef4653d4a",
+        "type": "s7 in",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "mode": "single",
+        "variable": "Nhiệt độ hơi",
+        "diff": true,
+        "name": "",
+        "x": 150,
+        "y": 1220,
+        "wires": [
+            [
+                "41c83477be6a2cc1"
+            ]
+        ]
+    },
+    {
+        "id": "41c83477be6a2cc1",
+        "type": "ui_gauge",
+        "z": "f12187556ebb73bf",
+        "name": "",
+        "group": "cca3d49b50224451",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "1000.0",
+        "colors": [
+            "#187218",
+            "#b5b536",
+            "#be2d2d"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 430,
+        "y": 1220,
+        "wires": []
+    },
+    {
+        "id": "7e4ff1b068ce7946",
+        "type": "ui_text",
+        "z": "f12187556ebb73bf",
+        "group": "d7149ab61bda7e75",
+        "order": 1,
+        "width": 9,
+        "height": 1,
+        "name": "",
+        "label": "Thời gian",
+        "format": "{{msg.payload}}",
+        "layout": "row-right",
+        "className": "",
+        "x": 860,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "235e808f453a6e76",
+        "type": "s7 in",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "mode": "single",
+        "variable": "PVT1",
+        "diff": false,
+        "name": "",
+        "x": 690,
+        "y": 20,
+        "wires": [
+            [
+                "7e4ff1b068ce7946",
+                "c64ac8691b7ac11b"
+            ]
+        ]
+    },
+    {
+        "id": "841b33dcdcd7554d",
+        "type": "ui_text",
+        "z": "f12187556ebb73bf",
+        "group": "d7149ab61bda7e75",
+        "order": 4,
+        "width": 9,
+        "height": 1,
+        "name": "",
+        "label": "Thời gian chạy lại",
+        "format": "{{msg.payload}}",
+        "layout": "row-right",
+        "className": "",
+        "x": 890,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "6facc3a216d68f26",
+        "type": "s7 in",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "mode": "single",
+        "variable": "PVT2",
+        "diff": false,
+        "name": "",
+        "x": 690,
+        "y": 120,
+        "wires": [
+            [
+                "841b33dcdcd7554d",
+                "50a452c0d002ec0b"
+            ]
+        ]
+    },
+    {
+        "id": "67647b9b9cdc3c19",
+        "type": "ui_text",
+        "z": "f12187556ebb73bf",
+        "group": "7d7c2b8c6ae08545",
+        "order": 1,
+        "width": 9,
+        "height": 1,
+        "name": "",
+        "label": "Thời gian",
+        "format": "{{msg.payload}}",
+        "layout": "row-right",
+        "className": "",
+        "x": 860,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "88a68b634a125b0a",
+        "type": "s7 in",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "mode": "single",
+        "variable": "PVT3",
+        "diff": false,
+        "name": "",
+        "x": 690,
+        "y": 200,
+        "wires": [
+            [
+                "67647b9b9cdc3c19",
+                "8ae924e0bfa4914a"
+            ]
+        ]
+    },
+    {
+        "id": "fd16dfd2692b6fde",
+        "type": "ui_text",
+        "z": "f12187556ebb73bf",
+        "group": "9367e454aa2bca7c",
+        "order": 1,
+        "width": 9,
+        "height": 1,
+        "name": "",
+        "label": "Thời gian",
+        "format": "{{msg.payload}}",
+        "layout": "row-right",
+        "className": "",
+        "x": 860,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "5a8daabc33ab65ec",
+        "type": "s7 in",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "mode": "single",
+        "variable": "PVT4",
+        "diff": false,
+        "name": "",
+        "x": 690,
+        "y": 280,
+        "wires": [
+            [
+                "fd16dfd2692b6fde",
+                "3dee9560cbc19243"
+            ]
+        ]
+    },
+    {
+        "id": "af9ad0db723e8903",
+        "type": "ui_text",
+        "z": "f12187556ebb73bf",
+        "group": "7fa5265d13c286ea",
+        "order": 1,
+        "width": 9,
+        "height": 1,
+        "name": "",
+        "label": "Thời gian",
+        "format": "{{msg.payload}}",
+        "layout": "row-right",
+        "className": "",
+        "x": 860,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "b251e49347f5ea9f",
+        "type": "s7 in",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "mode": "single",
+        "variable": "PVT5",
+        "diff": false,
+        "name": "",
+        "x": 690,
+        "y": 360,
+        "wires": [
+            [
+                "af9ad0db723e8903",
+                "9c6bbaa668b26b9f"
+            ]
+        ]
+    },
+    {
+        "id": "f73d00729cbb72b8",
+        "type": "ui_chart",
+        "z": "f12187556ebb73bf",
+        "name": "",
+        "group": "b1a283566ef33325",
+        "order": 6,
+        "width": 21,
+        "height": 4,
+        "label": "Nhiệt độ lò",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "1000",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 450,
+        "y": 1280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a50b6eecb700fe90",
+        "type": "s7 in",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "mode": "single",
+        "variable": "Nhiệt độ lò",
+        "diff": true,
+        "name": "",
+        "x": 140,
+        "y": 1280,
+        "wires": [
+            [
+                "f73d00729cbb72b8"
+            ]
+        ]
+    },
+    {
+        "id": "9eb873e90ec7eabc",
+        "type": "s7 in",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "mode": "single",
+        "variable": "Nhiệt độ hơi",
+        "diff": true,
+        "name": "",
+        "x": 150,
+        "y": 1320,
+        "wires": [
+            [
+                "40ab4b7fbb4d44c7"
+            ]
+        ]
+    },
+    {
+        "id": "40ab4b7fbb4d44c7",
+        "type": "ui_chart",
+        "z": "f12187556ebb73bf",
+        "name": "",
+        "group": "b1a283566ef33325",
+        "order": 1,
+        "width": 21,
+        "height": 4,
+        "label": "Nhiệt độ hơi",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "1000",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 450,
+        "y": 1320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fa5477115f568da2",
+        "type": "ui_slider",
+        "z": "f12187556ebb73bf",
+        "name": "",
+        "label": "Nhiệt độ lò cài đặt",
+        "tooltip": "",
+        "group": "e687f9d4455425ba",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "1000",
+        "step": 1,
+        "className": "",
+        "x": 710,
+        "y": 940,
+        "wires": [
+            [
+                "a02987adc9a2643d",
+                "f5ca5b592bc7b54f"
+            ]
+        ]
+    },
+    {
+        "id": "a02987adc9a2643d",
+        "type": "s7 out",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "variable": "SP-TL",
+        "name": "",
+        "x": 930,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "e00758e488588f0b",
+        "type": "ui_slider",
+        "z": "f12187556ebb73bf",
+        "name": "",
+        "label": " cài đặt áp suất",
+        "tooltip": "",
+        "group": "285b03bde783ef15",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "15.0",
+        "step": "0.1",
+        "className": "",
+        "x": 700,
+        "y": 1080,
+        "wires": [
+            [
+                "662a39c2a2bbc8e0",
+                "5285091ef32ee1e2"
+            ]
+        ]
+    },
+    {
+        "id": "662a39c2a2bbc8e0",
+        "type": "s7 out",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "variable": "SP-P",
+        "name": "",
+        "x": 930,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "c25711b4e56d7aab",
+        "type": "ui_slider",
+        "z": "f12187556ebb73bf",
+        "name": "",
+        "label": "Thời gian bơm chạy",
+        "tooltip": "",
+        "group": "1daf468028572d89",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "100",
+        "step": 1,
+        "className": "",
+        "x": 720,
+        "y": 1200,
+        "wires": [
+            [
+                "76dc468e62c90888"
+            ]
+        ]
+    },
+    {
+        "id": "76dc468e62c90888",
+        "type": "s7 out",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "variable": "Timer1",
+        "name": "",
+        "x": 930,
+        "y": 1200,
+        "wires": []
+    },
+    {
+        "id": "528f18f034ba60e5",
+        "type": "ui_slider",
+        "z": "f12187556ebb73bf",
+        "name": "",
+        "label": "Thời gian bơm chạy lại",
+        "tooltip": "",
+        "group": "1daf468028572d89",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "100",
+        "step": 1,
+        "className": "",
+        "x": 720,
+        "y": 1240,
+        "wires": [
+            [
+                "3ae79cade726c3ea"
+            ]
+        ]
+    },
+    {
+        "id": "3ae79cade726c3ea",
+        "type": "s7 out",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "variable": "Timer2",
+        "name": "",
+        "x": 930,
+        "y": 1240,
+        "wires": []
+    },
+    {
+        "id": "2ce7abe66a97a2b1",
+        "type": "ui_slider",
+        "z": "f12187556ebb73bf",
+        "name": "",
+        "label": "Thời gian Quạt 1 và 2 chạy",
+        "tooltip": "",
+        "group": "1daf468028572d89",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "100",
+        "step": 1,
+        "className": "",
+        "x": 740,
+        "y": 1280,
+        "wires": [
+            [
+                "0d17d3d57b1ff441"
+            ]
+        ]
+    },
+    {
+        "id": "0d17d3d57b1ff441",
+        "type": "s7 out",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "variable": "Timer3",
+        "name": "",
+        "x": 930,
+        "y": 1280,
+        "wires": []
+    },
+    {
+        "id": "1fd91115982686c8",
+        "type": "ui_slider",
+        "z": "f12187556ebb73bf",
+        "name": "",
+        "label": "Thời gian van 1 và 2 mở",
+        "tooltip": "",
+        "group": "1daf468028572d89",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "100",
+        "step": 1,
+        "className": "",
+        "x": 730,
+        "y": 1320,
+        "wires": [
+            [
+                "faa5060ea8785fc3"
+            ]
+        ]
+    },
+    {
+        "id": "faa5060ea8785fc3",
+        "type": "s7 out",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "variable": "Timer4",
+        "name": "",
+        "x": 930,
+        "y": 1320,
+        "wires": []
+    },
+    {
+        "id": "a1731e3ff23e79de",
+        "type": "ui_slider",
+        "z": "f12187556ebb73bf",
+        "name": "",
+        "label": "Thời gian bơm dập bụi chạy",
+        "tooltip": "",
+        "group": "1daf468028572d89",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "100",
+        "step": 1,
+        "className": "",
+        "x": 740,
+        "y": 1360,
+        "wires": [
+            [
+                "ce83be2cd3f02d8a"
+            ]
+        ]
+    },
+    {
+        "id": "ce83be2cd3f02d8a",
+        "type": "s7 out",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "variable": "Timer5",
+        "name": "",
+        "x": 930,
+        "y": 1360,
+        "wires": []
+    },
+    {
+        "id": "5285091ef32ee1e2",
+        "type": "ui_gauge",
+        "z": "f12187556ebb73bf",
+        "name": "",
+        "group": "285b03bde783ef15",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Áp suất",
+        "label": "Bar",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "16",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 920,
+        "y": 1140,
+        "wires": []
+    },
+    {
+        "id": "f5ca5b592bc7b54f",
+        "type": "ui_gauge",
+        "z": "f12187556ebb73bf",
+        "name": "",
+        "group": "e687f9d4455425ba",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Nhiệt độ",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "1000",
+        "colors": [
+            "#47b300",
+            "#e6bf00",
+            "#d72d2d"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 940,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "c64ac8691b7ac11b",
+        "type": "ui_slider",
+        "z": "f12187556ebb73bf",
+        "name": "",
+        "label": "Bơm chạy",
+        "tooltip": "",
+        "group": "d7149ab61bda7e75",
+        "order": 3,
+        "width": 9,
+        "height": 1,
+        "passthru": true,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "100",
+        "step": 1,
+        "className": "",
+        "x": 890,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "50a452c0d002ec0b",
+        "type": "ui_slider",
+        "z": "f12187556ebb73bf",
+        "name": "",
+        "label": "Bơm chạy lại",
+        "tooltip": "",
+        "group": "d7149ab61bda7e75",
+        "order": 5,
+        "width": 9,
+        "height": 1,
+        "passthru": true,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "100",
+        "step": 1,
+        "className": "",
+        "x": 870,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8ae924e0bfa4914a",
+        "type": "ui_slider",
+        "z": "f12187556ebb73bf",
+        "name": "",
+        "label": "Quạt 1 & 2",
+        "tooltip": "",
+        "group": "7d7c2b8c6ae08545",
+        "order": 2,
+        "width": 10,
+        "height": 1,
+        "passthru": true,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "100",
+        "step": 1,
+        "className": "",
+        "x": 870,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3dee9560cbc19243",
+        "type": "ui_slider",
+        "z": "f12187556ebb73bf",
+        "name": "",
+        "label": "Van 1 & 2",
+        "tooltip": "",
+        "group": "9367e454aa2bca7c",
+        "order": 2,
+        "width": 10,
+        "height": 1,
+        "passthru": true,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "100",
+        "step": 1,
+        "className": "",
+        "x": 860,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9c6bbaa668b26b9f",
+        "type": "ui_slider",
+        "z": "f12187556ebb73bf",
+        "name": "",
+        "label": "Bơm dập bụi",
+        "tooltip": "",
+        "group": "7fa5265d13c286ea",
+        "order": 2,
+        "width": 10,
+        "height": 1,
+        "passthru": true,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "100",
+        "step": 1,
+        "className": "",
+        "x": 870,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b25d67cd37ad0775",
+        "type": "ui_chart",
+        "z": "f12187556ebb73bf",
+        "name": "",
+        "group": "4b0948d159016911",
+        "order": 1,
+        "width": 6,
+        "height": 4,
+        "label": "Áp suất nước",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "1000",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 460,
+        "y": 1000,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d3a6291f9328167d",
+        "type": "ui_chart",
+        "z": "f12187556ebb73bf",
+        "name": "",
+        "group": "861852acf6e7111e",
+        "order": 1,
+        "width": 6,
+        "height": 4,
+        "label": "Tần số",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "1000",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 430,
+        "y": 1100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1b69bd5c61380d2b",
+        "type": "s7 in",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "mode": "single",
+        "variable": "Bơm nước chính",
+        "diff": false,
+        "name": "",
+        "x": 140,
+        "y": 1460,
+        "wires": [
+            [
+                "152411c684a8da41",
+                "bed61394f166d450"
+            ]
+        ]
+    },
+    {
+        "id": "152411c684a8da41",
+        "type": "function",
+        "z": "f12187556ebb73bf",
+        "name": "function 1",
+        "func": "if (msg.payload === true)\n{\n    msg.payload= \"bơm nước chính bật\"\n    return msg;\n}\nif (msg.payload === false) {\n    msg.payload = \"bơm nước chính tắt\"\n    return msg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 1520,
+        "wires": [
+            [
+                "316e87058157c900"
+            ]
+        ]
+    },
+    {
+        "id": "316e87058157c900",
+        "type": "ui_text",
+        "z": "f12187556ebb73bf",
+        "group": "6a06cc065218d317",
+        "order": 2,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 550,
+        "y": 1520,
+        "wires": []
+    },
+    {
+        "id": "bed61394f166d450",
+        "type": "ui_led",
+        "z": "f12187556ebb73bf",
+        "order": 1,
+        "group": "6a06cc065218d317",
+        "width": 3,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "right",
+        "labelAlignment": "right",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 450,
+        "y": 1440,
+        "wires": []
+    },
+    {
+        "id": "b5ab24bb125f229e",
+        "type": "s7 in",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "mode": "single",
+        "variable": "Van",
+        "diff": false,
+        "name": "",
+        "x": 110,
+        "y": 1600,
+        "wires": [
+            [
+                "f31e882d5474d1fb",
+                "9699fd392211e6e9"
+            ]
+        ]
+    },
+    {
+        "id": "f31e882d5474d1fb",
+        "type": "function",
+        "z": "f12187556ebb73bf",
+        "name": "function 2",
+        "func": "if (msg.payload === true)\n{\n    msg.payload= \"van bật\"\n    return msg;\n}\nif (msg.payload === false) {\n    msg.payload = \"van tắt\"\n    return msg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 1660,
+        "wires": [
+            [
+                "99717617505cbf11"
+            ]
+        ]
+    },
+    {
+        "id": "99717617505cbf11",
+        "type": "ui_text",
+        "z": "f12187556ebb73bf",
+        "group": "6a06cc065218d317",
+        "order": 4,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 550,
+        "y": 1660,
+        "wires": []
+    },
+    {
+        "id": "9699fd392211e6e9",
+        "type": "ui_led",
+        "z": "f12187556ebb73bf",
+        "order": 3,
+        "group": "6a06cc065218d317",
+        "width": 3,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "right",
+        "labelAlignment": "right",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 390,
+        "y": 1580,
+        "wires": []
+    },
+    {
+        "id": "53b7d586390beb84",
+        "type": "s7 in",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "mode": "single",
+        "variable": "Băng chuyền",
+        "diff": false,
+        "name": "",
+        "x": 150,
+        "y": 1740,
+        "wires": [
+            [
+                "87e925393e2a855b",
+                "c097e4416ac8447e"
+            ]
+        ]
+    },
+    {
+        "id": "87e925393e2a855b",
+        "type": "function",
+        "z": "f12187556ebb73bf",
+        "name": "function 3",
+        "func": "if (msg.payload === true)\n{\n    msg.payload= \"Băng tải bật\"\n    return msg;\n}\nif (msg.payload === false) {\n    msg.payload = \"Băng tải tắt\"\n    return msg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 1800,
+        "wires": [
+            [
+                "db420919e89020c1"
+            ]
+        ]
+    },
+    {
+        "id": "db420919e89020c1",
+        "type": "ui_text",
+        "z": "f12187556ebb73bf",
+        "group": "6a06cc065218d317",
+        "order": 6,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 570,
+        "y": 1800,
+        "wires": []
+    },
+    {
+        "id": "c097e4416ac8447e",
+        "type": "ui_led",
+        "z": "f12187556ebb73bf",
+        "order": 5,
+        "group": "6a06cc065218d317",
+        "width": 3,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "right",
+        "labelAlignment": "right",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 410,
+        "y": 1720,
+        "wires": []
+    },
+    {
+        "id": "2e4f9465c8762f28",
+        "type": "s7 in",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "mode": "single",
+        "variable": "Quạt cấp liệu",
+        "diff": false,
+        "name": "",
+        "x": 150,
+        "y": 1880,
+        "wires": [
+            [
+                "4198dce2fa8180a4",
+                "348b96e4ab8bda1b"
+            ]
+        ]
+    },
+    {
+        "id": "4198dce2fa8180a4",
+        "type": "function",
+        "z": "f12187556ebb73bf",
+        "name": "function 4",
+        "func": "if (msg.payload === true)\n{\n    msg.payload= \"Quạt cấp liệu bật\"\n    return msg;\n}\nif (msg.payload === false) {\n    msg.payload = \"Quạt cấp liệu tắt\"\n    return msg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 1940,
+        "wires": [
+            [
+                "f87d477076c779f7"
+            ]
+        ]
+    },
+    {
+        "id": "f87d477076c779f7",
+        "type": "ui_text",
+        "z": "f12187556ebb73bf",
+        "group": "6a06cc065218d317",
+        "order": 8,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 630,
+        "y": 1940,
+        "wires": []
+    },
+    {
+        "id": "348b96e4ab8bda1b",
+        "type": "ui_led",
+        "z": "f12187556ebb73bf",
+        "order": 7,
+        "group": "6a06cc065218d317",
+        "width": 3,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "right",
+        "labelAlignment": "right",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 410,
+        "y": 1860,
+        "wires": []
+    },
+    {
+        "id": "0d86b79aa4b20a6f",
+        "type": "s7 in",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "mode": "single",
+        "variable": "Quạt cấp khí ",
+        "diff": false,
+        "name": "",
+        "x": 170,
+        "y": 2020,
+        "wires": [
+            [
+                "54f15dd551a52a51",
+                "fbb170a2d91a061f"
+            ]
+        ]
+    },
+    {
+        "id": "54f15dd551a52a51",
+        "type": "function",
+        "z": "f12187556ebb73bf",
+        "name": "function 5",
+        "func": "if (msg.payload === true)\n{\n    msg.payload= \"Quạt cấp khí bật\"\n    return msg;\n}\nif (msg.payload === false) {\n    msg.payload = \"Quạt cấp khí tắt\"\n    return msg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 2080,
+        "wires": [
+            [
+                "f56e17170fa637c3"
+            ]
+        ]
+    },
+    {
+        "id": "f56e17170fa637c3",
+        "type": "ui_text",
+        "z": "f12187556ebb73bf",
+        "group": "6a06cc065218d317",
+        "order": 10,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 650,
+        "y": 2080,
+        "wires": []
+    },
+    {
+        "id": "fbb170a2d91a061f",
+        "type": "ui_led",
+        "z": "f12187556ebb73bf",
+        "order": 9,
+        "group": "6a06cc065218d317",
+        "width": 3,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "right",
+        "labelAlignment": "right",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 430,
+        "y": 2000,
+        "wires": []
+    },
+    {
+        "id": "9c3abe9d648d4385",
+        "type": "s7 in",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "mode": "single",
+        "variable": "Quạt hồi tro",
+        "diff": false,
+        "name": "",
+        "x": 170,
+        "y": 2160,
+        "wires": [
+            [
+                "e4a494aab9d244c2",
+                "d92bf24ce8a58f11"
+            ]
+        ]
+    },
+    {
+        "id": "e4a494aab9d244c2",
+        "type": "function",
+        "z": "f12187556ebb73bf",
+        "name": "function 6",
+        "func": "if (msg.payload === true)\n{\n    msg.payload= \"Quạt hồi tro bật\"\n    return msg;\n}\nif (msg.payload === false) {\n    msg.payload = \"Quạt hồi tro tắt\"\n    return msg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 2220,
+        "wires": [
+            [
+                "b9794d69f8fe96c3"
+            ]
+        ]
+    },
+    {
+        "id": "b9794d69f8fe96c3",
+        "type": "ui_text",
+        "z": "f12187556ebb73bf",
+        "group": "6a06cc065218d317",
+        "order": 12,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 650,
+        "y": 2220,
+        "wires": []
+    },
+    {
+        "id": "d92bf24ce8a58f11",
+        "type": "ui_led",
+        "z": "f12187556ebb73bf",
+        "order": 11,
+        "group": "6a06cc065218d317",
+        "width": 3,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "right",
+        "labelAlignment": "right",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 430,
+        "y": 2140,
+        "wires": []
+    },
+    {
+        "id": "07a2377ca2044902",
+        "type": "s7 in",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "mode": "single",
+        "variable": "Van xoay",
+        "diff": false,
+        "name": "",
+        "x": 160,
+        "y": 2320,
+        "wires": [
+            [
+                "9e43b3dbadd6c46a",
+                "e2254ad775f8fe8c"
+            ]
+        ]
+    },
+    {
+        "id": "9e43b3dbadd6c46a",
+        "type": "function",
+        "z": "f12187556ebb73bf",
+        "name": "function 7",
+        "func": "if (msg.payload === true)\n{\n    msg.payload= \"Van xoay 1 bật\"\n    return msg;\n}\nif (msg.payload === false) {\n    msg.payload = \"Van xoay 1 tắt\"\n    return msg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 2380,
+        "wires": [
+            [
+                "12d48a9a94daa4b4"
+            ]
+        ]
+    },
+    {
+        "id": "12d48a9a94daa4b4",
+        "type": "ui_text",
+        "z": "f12187556ebb73bf",
+        "group": "6a06cc065218d317",
+        "order": 14,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 650,
+        "y": 2380,
+        "wires": []
+    },
+    {
+        "id": "e2254ad775f8fe8c",
+        "type": "ui_led",
+        "z": "f12187556ebb73bf",
+        "order": 13,
+        "group": "6a06cc065218d317",
+        "width": 3,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "right",
+        "labelAlignment": "right",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 430,
+        "y": 2300,
+        "wires": []
+    },
+    {
+        "id": "2f0fbfebcb0f9630",
+        "type": "s7 in",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "mode": "single",
+        "variable": "Van xoay 2",
+        "diff": false,
+        "name": "",
+        "x": 160,
+        "y": 2460,
+        "wires": [
+            [
+                "9ee0353a8b4b2b78",
+                "97f61924dda4aa5e"
+            ]
+        ]
+    },
+    {
+        "id": "9ee0353a8b4b2b78",
+        "type": "function",
+        "z": "f12187556ebb73bf",
+        "name": "function 8",
+        "func": "if (msg.payload === true)\n{\n    msg.payload= \"Van xoay 2 bật\"\n    return msg;\n}\nif (msg.payload === false) {\n    msg.payload = \"Van xoay 2 tắt\"\n    return msg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 2520,
+        "wires": [
+            [
+                "55eaa5482daf2d6e"
+            ]
+        ]
+    },
+    {
+        "id": "55eaa5482daf2d6e",
+        "type": "ui_text",
+        "z": "f12187556ebb73bf",
+        "group": "6a06cc065218d317",
+        "order": 16,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 650,
+        "y": 2520,
+        "wires": []
+    },
+    {
+        "id": "97f61924dda4aa5e",
+        "type": "ui_led",
+        "z": "f12187556ebb73bf",
+        "order": 15,
+        "group": "6a06cc065218d317",
+        "width": 3,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "right",
+        "labelAlignment": "right",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 430,
+        "y": 2440,
+        "wires": []
+    },
+    {
+        "id": "13820222010512e3",
+        "type": "s7 in",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "mode": "single",
+        "variable": "Bơm dập bụi",
+        "diff": false,
+        "name": "",
+        "x": 170,
+        "y": 2600,
+        "wires": [
+            [
+                "e7961008f50a1d7a",
+                "45c30ce377f3439b"
+            ]
+        ]
+    },
+    {
+        "id": "e7961008f50a1d7a",
+        "type": "function",
+        "z": "f12187556ebb73bf",
+        "name": "function 9",
+        "func": "if (msg.payload === true)\n{\n    msg.payload= \"Bơm dập bụi bật\"\n    return msg;\n}\nif (msg.payload === false) {\n    msg.payload = \"Bơm dập bui tắt\"\n    return msg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 2660,
+        "wires": [
+            [
+                "32034753e3658a5c"
+            ]
+        ]
+    },
+    {
+        "id": "32034753e3658a5c",
+        "type": "ui_text",
+        "z": "f12187556ebb73bf",
+        "group": "6a06cc065218d317",
+        "order": 18,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 650,
+        "y": 2660,
+        "wires": []
+    },
+    {
+        "id": "45c30ce377f3439b",
+        "type": "ui_led",
+        "z": "f12187556ebb73bf",
+        "order": 17,
+        "group": "6a06cc065218d317",
+        "width": 3,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "right",
+        "labelAlignment": "right",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 430,
+        "y": 2580,
+        "wires": []
+    },
+    {
+        "id": "2a9a998fe7e0524e",
+        "type": "s7 in",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "mode": "single",
+        "variable": "Báo nhiệt độ cao ",
+        "diff": false,
+        "name": "",
+        "x": 180,
+        "y": 2740,
+        "wires": [
+            [
+                "ea66e12099317e46",
+                "09904795f79f4085"
+            ]
+        ]
+    },
+    {
+        "id": "ea66e12099317e46",
+        "type": "function",
+        "z": "f12187556ebb73bf",
+        "name": "function 10",
+        "func": "if (msg.payload === true)\n{\n    msg.payload= \"Nhiệt độ cao hơn quy định \"\n    return msg;\n}\nif (msg.payload === false) {\n    msg.payload = \" \"\n    return msg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 2800,
+        "wires": [
+            [
+                "13f06953a0d432e5"
+            ]
+        ]
+    },
+    {
+        "id": "13f06953a0d432e5",
+        "type": "ui_text",
+        "z": "f12187556ebb73bf",
+        "group": "6a06cc065218d317",
+        "order": 20,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 650,
+        "y": 2800,
+        "wires": []
+    },
+    {
+        "id": "09904795f79f4085",
+        "type": "ui_led",
+        "z": "f12187556ebb73bf",
+        "order": 19,
+        "group": "6a06cc065218d317",
+        "width": 3,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "right",
+        "labelAlignment": "right",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 430,
+        "y": 2720,
+        "wires": []
+    },
+    {
+        "id": "85d36752598262af",
+        "type": "s7 in",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "mode": "single",
+        "variable": "Hệ thống đánh lửa",
+        "diff": false,
+        "name": "",
+        "x": 210,
+        "y": 2880,
+        "wires": [
+            [
+                "9e7e062d10c21289",
+                "d6de7f091ab2f88e"
+            ]
+        ]
+    },
+    {
+        "id": "9e7e062d10c21289",
+        "type": "function",
+        "z": "f12187556ebb73bf",
+        "name": "function 11",
+        "func": "if (msg.payload === true)\n{\n    msg.payload= \"Béc lửa bật\"\n    return msg;\n}\nif (msg.payload === false) {\n    msg.payload = \"Béc lửa tắt\"\n    return msg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 2940,
+        "wires": [
+            [
+                "b2c6749e2b1bf8d8"
+            ]
+        ]
+    },
+    {
+        "id": "b2c6749e2b1bf8d8",
+        "type": "ui_text",
+        "z": "f12187556ebb73bf",
+        "group": "6a06cc065218d317",
+        "order": 22,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 670,
+        "y": 2940,
+        "wires": []
+    },
+    {
+        "id": "d6de7f091ab2f88e",
+        "type": "ui_led",
+        "z": "f12187556ebb73bf",
+        "order": 21,
+        "group": "6a06cc065218d317",
+        "width": 3,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "right",
+        "labelAlignment": "right",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 450,
+        "y": 2860,
+        "wires": []
+    },
+    {
+        "id": "a1036ae804999a81",
+        "type": "s7 in",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "mode": "single",
+        "variable": "Quạt thổi 1",
+        "diff": false,
+        "name": "",
+        "x": 180,
+        "y": 3020,
+        "wires": [
+            [
+                "e7e9cc9c40e20394",
+                "f90d063e5c9703f8"
+            ]
+        ]
+    },
+    {
+        "id": "e7e9cc9c40e20394",
+        "type": "function",
+        "z": "f12187556ebb73bf",
+        "name": "function 12",
+        "func": "if (msg.payload === true)\n{\n    msg.payload= \"Quạt thổi 1 bật\"\n    return msg;\n}\nif (msg.payload === false) {\n    msg.payload = \"Quạt thổi 1 tắt\"\n    return msg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 3080,
+        "wires": [
+            [
+                "213b59f0526268b9"
+            ]
+        ]
+    },
+    {
+        "id": "213b59f0526268b9",
+        "type": "ui_text",
+        "z": "f12187556ebb73bf",
+        "group": "6a06cc065218d317",
+        "order": 24,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 670,
+        "y": 3080,
+        "wires": []
+    },
+    {
+        "id": "f90d063e5c9703f8",
+        "type": "ui_led",
+        "z": "f12187556ebb73bf",
+        "order": 23,
+        "group": "6a06cc065218d317",
+        "width": 3,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "right",
+        "labelAlignment": "right",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 450,
+        "y": 3000,
+        "wires": []
+    },
+    {
+        "id": "1795f6154d5a76b0",
+        "type": "s7 in",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "mode": "single",
+        "variable": "Quạt thổi 2",
+        "diff": false,
+        "name": "",
+        "x": 200,
+        "y": 3180,
+        "wires": [
+            [
+                "64ed324d97b8765b",
+                "76c27f8f939a4c9e"
+            ]
+        ]
+    },
+    {
+        "id": "64ed324d97b8765b",
+        "type": "function",
+        "z": "f12187556ebb73bf",
+        "name": "function 13",
+        "func": "if (msg.payload === true)\n{\n    msg.payload= \"Quạt thổi 2 bật\"\n    return msg;\n}\nif (msg.payload === false) {\n    msg.payload = \"Quạt thổi 2 tắt\"\n    return msg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 480,
+        "y": 3240,
+        "wires": [
+            [
+                "478779c5b7180c4c"
+            ]
+        ]
+    },
+    {
+        "id": "478779c5b7180c4c",
+        "type": "ui_text",
+        "z": "f12187556ebb73bf",
+        "group": "6a06cc065218d317",
+        "order": 26,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 690,
+        "y": 3240,
+        "wires": []
+    },
+    {
+        "id": "76c27f8f939a4c9e",
+        "type": "ui_led",
+        "z": "f12187556ebb73bf",
+        "order": 25,
+        "group": "6a06cc065218d317",
+        "width": 3,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "right",
+        "labelAlignment": "right",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 470,
+        "y": 3160,
+        "wires": []
+    },
+    {
+        "id": "55fdc872a862bcb5",
+        "type": "s7 in",
+        "z": "f12187556ebb73bf",
+        "endpoint": "b1e33b6e6d55948a",
+        "mode": "single",
+        "variable": "Trạng thái lò",
+        "diff": false,
+        "name": "",
+        "x": 230,
+        "y": 3320,
+        "wires": [
+            [
+                "07177383c395ce26",
+                "35f5b0d822283b6a"
+            ]
+        ]
+    },
+    {
+        "id": "07177383c395ce26",
+        "type": "function",
+        "z": "f12187556ebb73bf",
+        "name": "function 14",
+        "func": "if (msg.payload === true)\n{\n    msg.payload= \"Lò đang hoạt động\"\n    return msg;\n}\nif (msg.payload === false) {\n    msg.payload = \"Lò đang tắt\"\n    return msg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 3380,
+        "wires": [
+            [
+                "8bbd2dd6bc94c277"
+            ]
+        ]
+    },
+    {
+        "id": "8bbd2dd6bc94c277",
+        "type": "ui_text",
+        "z": "f12187556ebb73bf",
+        "group": "6a06cc065218d317",
+        "order": 28,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 710,
+        "y": 3380,
+        "wires": []
+    },
+    {
+        "id": "35f5b0d822283b6a",
+        "type": "ui_led",
+        "z": "f12187556ebb73bf",
+        "order": 27,
+        "group": "6a06cc065218d317",
+        "width": 3,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "right",
+        "labelAlignment": "right",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 490,
+        "y": 3300,
+        "wires": []
+    },
+    {
+        "id": "b7297731e7bc6397",
+        "type": "function",
+        "z": "f12187556ebb73bf",
+        "name": "function 15",
+        "func": "if (msg.payload === true)\n{\n    msg.payload= \"Man\"\n    return msg;\n}\nif (msg.payload === false) {\n    msg.payload = \"Auto\"\n    return msg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 270,
+        "y": 160,
+        "wires": [
+            [
+                "9e98041137b6172d"
+            ]
+        ]
+    },
+    {
+        "id": "9e98041137b6172d",
+        "type": "ui_text",
+        "z": "f12187556ebb73bf",
+        "group": "baae4c40f2b5466f",
+        "order": 2,
+        "width": 4,
+        "height": 1,
+        "name": "",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 450,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "1efe6ad2e483a662",
+        "type": "remote-access",
+        "z": "f12187556ebb73bf",
+        "confignode": "3bcbba1c29192c1e",
+        "name": "",
+        "verbose": false,
+        "x": 840,
+        "y": 1480,
+        "wires": [
+            []
+        ]
+    }
+]
